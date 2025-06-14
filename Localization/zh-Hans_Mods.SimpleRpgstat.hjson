@@ -1,0 +1,81 @@
+Mods: {
+	SimpleRpgstat: {
+		UI: {
+			// StatTitle: Character Stats
+			// LevelUp: Level Up! Lv.{0} (+3 Stat Points)
+			// ExpGain: +{0} EXP
+			// StatPoints: Stat Points: {0}
+			// DetailInfo: "[Details]"
+			// CloseKey: Press [C] or [ESC] to close
+			// Job Names
+			// JobBeginner: Beginner
+			// JobWarrior: Warrior
+			// JobRanger: Ranger
+			// JobMage: Mage
+			// JobSummoner: Summoner
+			// JobUnknown: Unknown
+			// Stats
+			// StatSTR: STR
+			// StatDEX: DEX
+			// StatINT: INT
+			// StatLUK: LUK
+			// Damage Types
+			// MeleeDamage: Melee
+			// RangedDamage: Ranged
+			// MagicDamage: Magic
+			// SummonDamage: Summon
+			// WhipDamage: Whip
+			// OtherDamage: Other
+			// Status Info
+			// WeaponDamage: "{0} Weapon: {1}~{2}"
+			// WeaponDamageNone: Weapon Damage: None
+			// DamageBonus: "{0}: +{1}% (+{2}%)"
+			// CritChance: Critical Chance: {0}% (+{1}%)
+			// MaxMana: Max Mana: {0} (+{1})
+			// Luck: Luck: {0} (+{1})
+		}
+	}
+}
+
+Buffs: {
+	MeteorStackBuff: {
+	}
+
+	ExpDoubleBuff: {
+	}
+
+	ImmortalCooldownBuff: {
+	}
+
+	ImmortalBuff: {
+		// Description: Mods.SimpleRpgstat.Buffs.ImmortalBuff.Description
+		// DisplayName: Immortal Buff
+	}
+
+	CooldownBuff: {
+		// DisplayName: Cooldown Buff
+		// Description: Mods.SimpleRpgstat.Buffs.CooldownBuff.Description
+	}
+}
+
+TownNPCMood: {
+}
+
+// NPCs.RPGStatTrainer.Census.SpawnCondition: Conditions unknown
+
+Keybinds: {
+	// "Open Skill UI.DisplayName": Open  Skill  U I
+	// "Open Stat UI.DisplayName": Open  Stat  U I
+	// "Skill 1 USE.DisplayName": Skill 1  U S E
+}
+
+Items: {
+	ExpDoubleCoupon: {
+	}
+}
+
+Projectiles: {
+	// DelayedHomingMissile.DisplayName: Delayed Homing Missile
+	// HomingExplodingMinion.DisplayName: Homing Exploding Minion
+	// CustomRaven.DisplayName: Custom Raven
+}

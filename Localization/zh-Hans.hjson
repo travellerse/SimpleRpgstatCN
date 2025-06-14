@@ -10,7 +10,7 @@
         "StatPoints": "属性点: {0}",
         "DetailInfo": "[详细信息]",
         "CloseKey": "按 [C] 或 [ESC] 关闭",
-			// Job Names 职业名称
+			// Job Names
         "JobBeginner": "新手",
         "JobWarrior": "战士",
         "JobWarrior1": "狂战士",
@@ -29,12 +29,12 @@
         "JobSummoner2": "死灵法师",
         "JobSummoner3": "召唤师3",
         "JobUnknown": "未知",
-			// Stats 属性
+			// Stats
         "StatSTR": "力量(STR)",
         "StatDEX": "敏捷(DEX)",
         "StatINT": "智力(INT)",
         "StatLUK": "幸运(LUK)",
-			// Damage Types 伤害类型
+			// Damage Types
         "MeleeDamage": "近战伤害",
         "RangedDamage": "远程伤害",
         "MagicDamage": "魔法伤害",
@@ -48,13 +48,13 @@
         "CritChance": "暴击: {0}%(+{1}%)",
         "MaxMana": "最大法力: {0}(+{1})",
         "Luck": "幸运: {0}(+{1})",
-			// === 技能 UI 本地化 ===
+			// === SKILL UI LOCALIZATION ===
 			
-			// 技能 UI 主界面
+			// Skill UI Main
         "SkillTreeTitle": "[技能树]",
         "SkillPointsText": "技能点: {0}",
         "SkillUICloseKey": "[K] 或 [ESC] 关闭",
-			// 职业转换部分
+			// Job Change Section
         "JobChangeTitle": "职业转换",
         "JobChangeCondition1": "要求: 等级 10 以上",
         "JobChangeCondition2": "所有新手技能点已使用",
@@ -64,15 +64,15 @@
         "JobChangeBonusMsg": "你获得了 1 个技能点作为职业转换奖励！",
         "JobChangeLevelError": "你必须达到 10 级或更高才能转换职业！",
         "JobChangeSkillError": "你必须在基础技能上至少投入 10 点才能转换职业！",
-			// 职业描述
+			// Job Descriptions
         "JobDescBeginner": "一切的开始",
         "JobDescWarrior": "强大近战的掌控者",
         "JobDescRanger": "精确远程攻击的专家",
         "JobDescMage": "神秘魔法的使用者",
         "JobDescSummoner": "控制召唤生物的大师",
-			// 技能部分名称
+			// Skill Section Names
         "BasicSkillsTitle": "基础技能",
-			// 基础技能
+			// Basic Skills
         "SkillHPName": "生命提升",
         "SkillHPDesc": "增加最大生命值。",
         "SkillHPDetail": "\n生命值上限增加 {1}。\n\n当前等级:  {0}\n生命值增加:  +{1} HP\n",
@@ -82,7 +82,7 @@
         "SkillSPDName": "迅捷移动",
         "SkillSPDDesc": "增加移动速度。",
         "SkillSPDDetail": "\n移动速度增加 {1}%。\n\n当前等级:  {0}\n速度增加:  +{1}%\n",
-			// 战士技能
+			// Warrior Skills
         "WarriorSkill1Name": "护盾防御",
         "WarriorSkill1Desc": "增加防御力。",
         "WarriorSkill1DetailDesc": "\n防御力增加 {0}。\n\n当前等级:  {1}\n防御力增加:  +{2}\n",
@@ -92,7 +92,7 @@
         "WarriorSkill3Name": "健康身体",
         "WarriorSkill3Desc": "根据当前生命值增加最大生命值和近战伤害。",
         "WarriorSkill3DetailDesc": "\n依据当前生命值增加最大生命值和近战伤害。\n最大生命值 +{0}\n伤害 [+{1}% 当前生命值] 增加\n\n当前等级:  {2}\n",
-			// 游侠技能
+			// Ranger Skills
         "RangerSkill1Name": "双重射击",
         "RangerSkill1Desc": "同时发射 2 支箭。",
         "RangerSkill1DetailDesc": "\n同时发射 2 支箭。\n第二支箭的伤害随着等级提高\n\n当前等级:  {0}\n第二支箭伤害:  {1}%\n",
@@ -102,7 +102,7 @@
         "RangerSkill3Name": "箭矢穿透",
         "RangerSkill3Desc": "投射物有机会穿透敌人。",
         "RangerSkill3DetailDesc": "\n投射物有机会穿透敌人。\n\n当前等级:  {0}\n穿透几率:  {1}%\n",
-			// 法师技能
+			// Mage Skills
         "MageSkill1Name": "法力增幅",
         "MageSkill1Desc": "增加最大法力值。",
         "MageSkill1DetailDesc": "\n法力值上限增加。\n\n当前等级:  {0}\n法力上限:  +{1}\n",
@@ -112,7 +112,7 @@
         "MageSkill3Name": "过载",
         "MageSkill3Desc": "增加法力消耗并放大伤害。",
         "MageSkill3DetailDesc": "\n增加法力消耗并放大伤害。\n\n当前等级:  {0}\n法力消耗:  +{1}%，魔法伤害增加:  +{2}%\n",
-			// 召唤师技能
+			// Summoner Skills
         "SummonerSkill1Name": "致命召唤",
         "SummonerSkill1Desc": "召唤师攻击造成暴击伤害。",
         "SummonerSkill1DetailDesc": "\n召唤师攻击造成暴击伤害。\n\n当前等级:  {0}\n暴击伤害:  +{1}%\n",
@@ -122,46 +122,37 @@
         "SummonerSkill3Name": "扩展打击",
         "SummonerSkill3Desc": "增加鞭子的攻击范围。",
         "SummonerSkill3DetailDesc": "\n增加鞭子的攻击范围。\n\n当前等级:  {0}\n鞭子攻击范围:  {1}%\n",
-			// 狂战士技能名称
+			// Berserker Skill Names
         "BerserkerSkill1Name": "剑术精通",
         "BerserkerSkill2Name": "狂怒",
         "BerserkerSkill3Name": "不死",
-			// 狂战士技能简要描述
+			// Berserker Skill Short Descriptions
         "BerserkerSkill1Desc": "增加最小近战伤害。",
         "BerserkerSkill2Desc": "受到伤害时获得暴击几率。",
         "BerserkerSkill3Desc": "有几率在致命伤害中生存。",
-			// 狂战士技能详细描述
+			// Berserker Skill Detailed Descriptions
         "BerserkerSkill1DetailDesc": "增加最小近战伤害  \n最小伤害随等级提升而增加  \n\n当前等级:  {0}  \n最小伤害加成:  +{1}%",
         "BerserkerSkill2DetailDesc": "生命值减少时暴击几率增加  \n50% HP 或更低时效果最大化  \n\n当前等级:  {0}  \n最大暴击几率加成:  +{1}%",
         "BerserkerSkill3DetailDesc": "以 1 HP 生存致命伤害  \n不死持续时间和冷却时间随技能等级提高而减少  \n\n当前等级:  {0}  \n不死持续时间:  {1} 秒  \n冷却时间:  {2} 秒",
-			// 圣骑士技能名称
         "PaladinSkill2Name": "战斗姿态",
         "PaladinSkill3Name": "护盾防御",
-			// 圣骑士技能简要描述
         "PaladinSkill2Desc": "攻击时获得近战伤害加成。",
         "PaladinSkill3Desc": "增加防御力并根据防御力减少所受伤害。",
-			// 圣骑士技能详细描述
         "PaladinSkill2DetailDesc": "攻击时获得增加伤害的增益。  \n该效果可叠加。\n\n当前等级:  {0}  \n每层叠加的伤害增加:  +{1}%  \n最大叠加层数:  {2}",
         "PaladinSkill3DetailDesc": "防御力和减伤率随等级提高而增加。\n\n当前等级:  {0}  \n防御力加成:  +{1}  \n减伤率:  {2}%",
-			// 狙击手技能名称
         "DeadeyeSkill1Name": "精准训练",
         "DeadeyeSkill2Name": "强力射击",
         "DeadeyeSkill3Name": "影子步",
-			// 狙击手技能简要描述
         "DeadeyeSkill1Desc": "通过精准瞄准增加最小伤害。",
         "DeadeyeSkill2Desc": "通过增强射击技巧增加最大伤害。",
         "DeadeyeSkill3Desc": "提高闪避率，并在闪避时短暂无敌。",
-			// 狙击手技能详细描述
         "DeadeyeSkill1DetailDesc": "提高精准度以确保稳定伤害。\n最小伤害随等级提高而增加。\n\n当前等级:  {0}\n最小伤害增加:  +{1}%",
         "DeadeyeSkill2DetailDesc": "强化射击以造成毁灭性伤害。\n最大伤害随等级提高而增加。\n\n当前等级:  {0}\n最大伤害增加:  +{1}%",
         "DeadeyeSkill3DetailDesc": "通过影子技巧掌握闪避的艺术。\n闪避率随等级提高而增加，并赋予短暂的无敌效果。\n\n当前等级:  {0}\n闪避率:  +{1}%\n无敌持续时间:  1 秒",
-			// 兽王技能名称
         "HunterSkill2Name": "乌鸦伙伴",
         "HunterSkill3Name": "野兽掌控",
-			// 兽王技能简要描述
         "HunterSkill2Desc": "自动召唤一只忠诚的乌鸦伙伴，与您并肩作战。",
         "HunterSkill3Desc": "增加随从容量，并根据敏捷增强召唤伤害。",
-			// 兽王技能详细描述
         "HunterSkill2DetailDesc": "召唤一只忠诚的乌鸦自动攻击敌人。\n乌鸦会随技能等级成长且不占用召唤位。\n\n当前等级: {0}\n乌鸦伤害: {1}",
         "HunterSkill3DetailDesc": "掌握指挥多只生物作战的艺术。\n增加召唤容量并提升召唤伤害。\n\n当前等级: {0}\n额外召唤位: +{1}\n将 {2}% 敏捷转化为召唤伤害",
         "ArchMageSkill1Name": "魔法精通",
@@ -200,6 +191,7 @@
         "NecromancerSkill3Name": "死灵术",
         "NecromancerSkill3Desc": "牺牲生命值增加召唤位。",
         "NecromancerSkill3DetailDesc": "牺牲生命力以召唤更多亡灵生物。\n更高等级可获得更多召唤位，但会减少更多生命值。\n\n当前等级: {0}\n额外召唤位: +{1}\n生命值减少: -{2}",
+			// 쿨타임 버프 관련
         "TeleportCooldownName": "瞬移冷却",
         "TeleportCooldownTip": "{0} 秒内无法瞬移",
         "MinionBoostCooldownName": "召唤强化冷却",
