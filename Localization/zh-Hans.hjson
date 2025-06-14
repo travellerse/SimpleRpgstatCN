@@ -1,282 +1,578 @@
-{
-  "Mods": {
-    "SimpleRpgstat": {
-      "UI": {
-        "StatShop": "属性商店",
-        "Shop": "商店",
-        "StatTitle": "角色属性",
-        "LevelUp": "升级了！Lv.{0}(+3 属性点)",
-        "ExpGain": "+{0} 经验",
-        "StatPoints": "属性点: {0}",
-        "DetailInfo": "[详细信息]",
-        "CloseKey": "按 [C] 或 [ESC] 关闭",
+Mods: {
+	SimpleRpgstat: {
+		UI: {
+			StatShop: 属性商店
+			Shop: 商店
+			StatTitle: 角色属性
+			LevelUp: 升级了！Lv.{0}(+3 属性点)
+			ExpGain: +{0} 经验
+			StatPoints: 属性点: {0}
+			DetailInfo: "[详细信息]"
+			CloseKey: 按 [C] 或 [ESC] 关闭
 			// Job Names
-        "JobBeginner": "新手",
-        "JobWarrior": "战士",
-        "JobWarrior1": "狂战士",
-        "JobWarrior2": "圣骑士",
-        "JobWarrior3": "十字军",
-        "JobRanger": "游侠",
-        "JobRanger1": "神射手",
-        "JobRanger2": "猎人",
-        "JobRanger3": "游侠3",
-        "JobMage": "法师",
-        "JobMage1": "大法师",
-        "JobMage2": "牧师",
-        "JobMage3": "法师3",
-        "JobSummoner": "召唤师",
-        "JobSummoner1": "召唤者",
-        "JobSummoner2": "死灵法师",
-        "JobSummoner3": "召唤师3",
-        "JobUnknown": "未知",
+			JobBeginner: 新手
+			JobWarrior: 战士
+			JobWarrior1: 狂战士
+			JobWarrior2: 圣骑士
+			JobWarrior3: 十字军
+			JobRanger: 游侠
+			JobRanger1: 神射手
+			JobRanger2: 猎人
+			JobRanger3: 游侠3
+			JobMage: 法师
+			JobMage1: 大法师
+			JobMage2: 牧师
+			JobMage3: 法师3
+			JobSummoner: 召唤师
+			JobSummoner1: 召唤者
+			JobSummoner2: 死灵法师
+			JobSummoner3: 召唤师3
+			JobUnknown: 未知
 			// Stats
-        "StatSTR": "力量(STR)",
-        "StatDEX": "敏捷(DEX)",
-        "StatINT": "智力(INT)",
-        "StatLUK": "幸运(LUK)",
+			StatSTR: 力量(STR)
+			StatDEX: 敏捷(DEX)
+			StatINT: 智力(INT)
+			StatLUK: 幸运(LUK)
 			// Damage Types
-        "MeleeDamage": "近战伤害",
-        "RangedDamage": "远程伤害",
-        "MagicDamage": "魔法伤害",
-        "SummonDamage": "召唤伤害",
-        "WhipDamage": "鞭子伤害",
-        "OtherDamage": "其他伤害",
+			MeleeDamage: 近战伤害
+			RangedDamage: 远程伤害
+			MagicDamage: 魔法伤害
+			SummonDamage: 召唤伤害
+			WhipDamage: 鞭子伤害
+			OtherDamage: 其他伤害
 			// Status Info
-        "WeaponDamage": "{0}武器: {1}~{2}",
-        "WeaponDamageNone": "武器伤害: 无",
-        "DamageBonus": "{0}: +{1}%(+{2}%)",
-        "CritChance": "暴击: {0}%(+{1}%)",
-        "MaxMana": "最大法力: {0}(+{1})",
-        "Luck": "幸运: {0}(+{1})",
+			WeaponDamage: "{0}武器: {1}~{2}"
+			WeaponDamageNone: 武器伤害: 无
+			DamageBonus: "{0}: +{1}%(+{2}%)"
+			CritChance: 暴击: {0}%(+{1}%)
+			MaxMana: 最大法力: {0}(+{1})
+			Luck: 幸运: {0}(+{1})
 			// === SKILL UI LOCALIZATION ===
 			
 			// Skill UI Main
-        "SkillTreeTitle": "[技能树]",
-        "SkillPointsText": "技能点: {0}",
-        "SkillUICloseKey": "[K] 或 [ESC] 关闭",
+			SkillTreeTitle: "[技能树]"
+			SkillPointsText: 技能点: {0}
+			SkillUICloseKey: "[K] 或 [ESC] 关闭"
 			// Job Change Section
-        "JobChangeTitle": "职业转换",
-        "JobChangeCondition1": "要求: 等级 10 以上",
-        "JobChangeCondition2": "所有新手技能点已使用",
-        "JobChangeBonus": "职业转换奖励: +1 技能点",
-        "JobChangeAction": "点击转换职业！",
-        "JobChangeSuccessMsg": "恭喜！你已成功转换为 {0}！",
-        "JobChangeBonusMsg": "你获得了 1 个技能点作为职业转换奖励！",
-        "JobChangeLevelError": "你必须达到 10 级或更高才能转换职业！",
-        "JobChangeSkillError": "你必须在基础技能上至少投入 10 点才能转换职业！",
+			JobChangeTitle: 职业转换
+			JobChangeCondition1: 要求: 等级 10 以上
+			JobChangeCondition2: 所有新手技能点已使用
+			JobChangeBonus: 职业转换奖励: +1 技能点
+			JobChangeAction: 点击转换职业！
+			JobChangeSuccessMsg: 恭喜！你已成功转换为 {0}！
+			JobChangeBonusMsg: 你获得了 1 个技能点作为职业转换奖励！
+			JobChangeLevelError: 你必须达到 10 级或更高才能转换职业！
+			JobChangeSkillError: 你必须在基础技能上至少投入 10 点才能转换职业！
 			// Job Descriptions
-        "JobDescBeginner": "一切的开始",
-        "JobDescWarrior": "强大近战的掌控者",
-        "JobDescRanger": "精确远程攻击的专家",
-        "JobDescMage": "神秘魔法的使用者",
-        "JobDescSummoner": "控制召唤生物的大师",
+			JobDescBeginner: 一切的开始
+			JobDescWarrior: 强大近战的掌控者
+			JobDescRanger: 精确远程攻击的专家
+			JobDescMage: 神秘魔法的使用者
+			JobDescSummoner: 控制召唤生物的大师
 			// Skill Section Names
-        "BasicSkillsTitle": "基础技能",
+			BasicSkillsTitle: 基础技能
 			// Basic Skills
-        "SkillHPName": "生命提升",
-        "SkillHPDesc": "增加最大生命值。",
-        "SkillHPDetail": "\n生命值上限增加 {1}。\n\n当前等级:  {0}\n生命值增加:  +{1} HP\n",
-        "SkillMPName": "法力提升",
-        "SkillMPDesc": "增加最大法力值。",
-        "SkillMPDetail": "\n法力值上限增加 {1}。\n\n当前等级:  {0}\n法力值增加:  +{1} MP\n",
-        "SkillSPDName": "迅捷移动",
-        "SkillSPDDesc": "增加移动速度。",
-        "SkillSPDDetail": "\n移动速度增加 {1}%。\n\n当前等级:  {0}\n速度增加:  +{1}%\n",
+			SkillHPName: 生命提升
+			SkillHPDesc: 增加最大生命值。
+			SkillHPDetail:
+				'''
+
+				生命值上限增加 {1}。
+
+				当前等级:  {0}
+				生命值增加:  +{1} HP
+
+				'''
+			SkillMPName: 法力提升
+			SkillMPDesc: 增加最大法力值。
+			SkillMPDetail:
+				'''
+
+				法力值上限增加 {1}。
+
+				当前等级:  {0}
+				法力值增加:  +{1} MP
+
+				'''
+			SkillSPDName: 迅捷移动
+			SkillSPDDesc: 增加移动速度。
+			SkillSPDDetail:
+				'''
+
+				移动速度增加 {1}%。
+
+				当前等级:  {0}
+				速度增加:  +{1}%
+
+				'''
 			// Warrior Skills
-        "WarriorSkill1Name": "护盾防御",
-        "WarriorSkill1Desc": "增加防御力。",
-        "WarriorSkill1DetailDesc": "\n防御力增加 {0}。\n\n当前等级:  {1}\n防御力增加:  +{2}\n",
-        "WarriorSkill2Name": "力量打击",
-        "WarriorSkill2Desc": "有机会造成增强的攻击伤害。",
-        "WarriorSkill2DetailDesc": "\n造成 250% 增强攻击伤害的几率。\n力量打击几率增加 {0}%。\n\n当前等级:  {1}\n力量打击几率:  +{2}%\n",
-        "WarriorSkill3Name": "健康身体",
-        "WarriorSkill3Desc": "根据当前生命值增加最大生命值和近战伤害。",
-        "WarriorSkill3DetailDesc": "\n依据当前生命值增加最大生命值和近战伤害。\n最大生命值 +{0}\n伤害 [+{1}% 当前生命值] 增加\n\n当前等级:  {2}\n",
+			WarriorSkill1Name: 护盾防御
+			WarriorSkill1Desc: 增加防御力。
+			WarriorSkill1DetailDesc:
+				'''
+
+				防御力增加 {0}。
+
+				当前等级:  {1}
+				防御力增加:  +{2}
+
+				'''
+			WarriorSkill2Name: 力量打击
+			WarriorSkill2Desc: 有机会造成增强的攻击伤害。
+			WarriorSkill2DetailDesc:
+				'''
+
+				造成 250% 增强攻击伤害的几率。
+				力量打击几率增加 {0}%。
+
+				当前等级:  {1}
+				力量打击几率:  +{2}%
+
+				'''
+			WarriorSkill3Name: 健康身体
+			WarriorSkill3Desc: 根据当前生命值增加最大生命值和近战伤害。
+			WarriorSkill3DetailDesc:
+				'''
+
+				依据当前生命值增加最大生命值和近战伤害。
+				最大生命值 +{0}
+				伤害 [+{1}% 当前生命值] 增加
+
+				当前等级:  {2}
+
+				'''
 			// Ranger Skills
-        "RangerSkill1Name": "双重射击",
-        "RangerSkill1Desc": "同时发射 2 支箭。",
-        "RangerSkill1DetailDesc": "\n同时发射 2 支箭。\n第二支箭的伤害随着等级提高\n\n当前等级:  {0}\n第二支箭伤害:  {1}%\n",
-        "RangerSkill2Name": "暴击专注",
-        "RangerSkill2Desc": "提高远程攻击的暴击几率。",
-        "RangerSkill2DetailDesc": "\n提高远程攻击的暴击几率。\n每级增加 2%\n\n当前等级:  {0}\n暴击几率增加:  +{1}%\n",
-        "RangerSkill3Name": "箭矢穿透",
-        "RangerSkill3Desc": "投射物有机会穿透敌人。",
-        "RangerSkill3DetailDesc": "\n投射物有机会穿透敌人。\n\n当前等级:  {0}\n穿透几率:  {1}%\n",
+			RangerSkill1Name: 双重射击
+			RangerSkill1Desc: 同时发射 2 支箭。
+			RangerSkill1DetailDesc:
+				'''
+
+				同时发射 2 支箭。
+				第二支箭的伤害随着等级提高
+
+				当前等级:  {0}
+				第二支箭伤害:  {1}%
+
+				'''
+			RangerSkill2Name: 暴击专注
+			RangerSkill2Desc: 提高远程攻击的暴击几率。
+			RangerSkill2DetailDesc:
+				'''
+
+				提高远程攻击的暴击几率。
+				每级增加 2%
+
+				当前等级:  {0}
+				暴击几率增加:  +{1}%
+
+				'''
+			RangerSkill3Name: 箭矢穿透
+			RangerSkill3Desc: 投射物有机会穿透敌人。
+			RangerSkill3DetailDesc:
+				'''
+
+				投射物有机会穿透敌人。
+
+				当前等级:  {0}
+				穿透几率:  {1}%
+
+				'''
 			// Mage Skills
-        "MageSkill1Name": "法力增幅",
-        "MageSkill1Desc": "增加最大法力值。",
-        "MageSkill1DetailDesc": "\n法力值上限增加。\n\n当前等级:  {0}\n法力上限:  +{1}\n",
-        "MageSkill2Name": "魔法护盾",
-        "MageSkill2Desc": "部分受到的伤害由法力值吸收。",
-        "MageSkill2DetailDesc": "\n部分受到的伤害由法力值吸收。\n仅在当前法力值为 50% 或更高时生效。\n当前等级:  {0}\n法力吸收伤害:  {1}%\n",
-        "MageSkill3Name": "过载",
-        "MageSkill3Desc": "增加法力消耗并放大伤害。",
-        "MageSkill3DetailDesc": "\n增加法力消耗并放大伤害。\n\n当前等级:  {0}\n法力消耗:  +{1}%，魔法伤害增加:  +{2}%\n",
+			MageSkill1Name: 法力增幅
+			MageSkill1Desc: 增加最大法力值。
+			MageSkill1DetailDesc:
+				'''
+
+				法力值上限增加。
+
+				当前等级:  {0}
+				法力上限:  +{1}
+
+				'''
+			MageSkill2Name: 魔法护盾
+			MageSkill2Desc: 部分受到的伤害由法力值吸收。
+			MageSkill2DetailDesc:
+				'''
+
+				部分受到的伤害由法力值吸收。
+				仅在当前法力值为 50% 或更高时生效。
+				当前等级:  {0}
+				法力吸收伤害:  {1}%
+
+				'''
+			MageSkill3Name: 过载
+			MageSkill3Desc: 增加法力消耗并放大伤害。
+			MageSkill3DetailDesc:
+				'''
+
+				增加法力消耗并放大伤害。
+
+				当前等级:  {0}
+				法力消耗:  +{1}%，魔法伤害增加:  +{2}%
+
+				'''
 			// Summoner Skills
-        "SummonerSkill1Name": "致命召唤",
-        "SummonerSkill1Desc": "召唤师攻击造成暴击伤害。",
-        "SummonerSkill1DetailDesc": "\n召唤师攻击造成暴击伤害。\n\n当前等级:  {0}\n暴击伤害:  +{1}%\n",
-        "SummonerSkill2Name": "召唤精通",
-        "SummonerSkill2Desc": "增加最大召唤生物数量。",
-        "SummonerSkill2DetailDesc": "\n每 5 级增加 1 个召唤位\n增加召唤生物伤害\n\n当前等级:  {0}\n额外召唤位:  +{1}，召唤伤害增加:  +{2}%\n",
-        "SummonerSkill3Name": "扩展打击",
-        "SummonerSkill3Desc": "增加鞭子的攻击范围。",
-        "SummonerSkill3DetailDesc": "\n增加鞭子的攻击范围。\n\n当前等级:  {0}\n鞭子攻击范围:  {1}%\n",
+			SummonerSkill1Name: 致命召唤
+			SummonerSkill1Desc: 召唤师攻击造成暴击伤害。
+			SummonerSkill1DetailDesc:
+				'''
+
+				召唤师攻击造成暴击伤害。
+
+				当前等级:  {0}
+				暴击伤害:  +{1}%
+
+				'''
+			SummonerSkill2Name: 召唤精通
+			SummonerSkill2Desc: 增加最大召唤生物数量。
+			SummonerSkill2DetailDesc:
+				'''
+
+				每 5 级增加 1 个召唤位
+				增加召唤生物伤害
+
+				当前等级:  {0}
+				额外召唤位:  +{1}，召唤伤害增加:  +{2}%
+
+				'''
+			SummonerSkill3Name: 扩展打击
+			SummonerSkill3Desc: 增加鞭子的攻击范围。
+			SummonerSkill3DetailDesc:
+				'''
+
+				增加鞭子的攻击范围。
+
+				当前等级:  {0}
+				鞭子攻击范围:  {1}%
+
+				'''
 			// Berserker Skill Names
-        "BerserkerSkill1Name": "剑术精通",
-        "BerserkerSkill2Name": "狂怒",
-        "BerserkerSkill3Name": "不死",
+			BerserkerSkill1Name: 剑术精通
+			BerserkerSkill2Name: 狂怒
+			BerserkerSkill3Name: 不死
 			// Berserker Skill Short Descriptions
-        "BerserkerSkill1Desc": "增加最小近战伤害。",
-        "BerserkerSkill2Desc": "受到伤害时获得暴击几率。",
-        "BerserkerSkill3Desc": "有几率在致命伤害中生存。",
+			BerserkerSkill1Desc: 增加最小近战伤害。
+			BerserkerSkill2Desc: 受到伤害时获得暴击几率。
+			BerserkerSkill3Desc: 有几率在致命伤害中生存。
 			// Berserker Skill Detailed Descriptions
-        "BerserkerSkill1DetailDesc": "增加最小近战伤害  \n最小伤害随等级提升而增加  \n\n当前等级:  {0}  \n最小伤害加成:  +{1}%",
-        "BerserkerSkill2DetailDesc": "生命值减少时暴击几率增加  \n50% HP 或更低时效果最大化  \n\n当前等级:  {0}  \n最大暴击几率加成:  +{1}%",
-        "BerserkerSkill3DetailDesc": "以 1 HP 生存致命伤害  \n不死持续时间和冷却时间随技能等级提高而减少  \n\n当前等级:  {0}  \n不死持续时间:  {1} 秒  \n冷却时间:  {2} 秒",
-        "PaladinSkill2Name": "战斗姿态",
-        "PaladinSkill3Name": "护盾防御",
-        "PaladinSkill2Desc": "攻击时获得近战伤害加成。",
-        "PaladinSkill3Desc": "增加防御力并根据防御力减少所受伤害。",
-        "PaladinSkill2DetailDesc": "攻击时获得增加伤害的增益。  \n该效果可叠加。\n\n当前等级:  {0}  \n每层叠加的伤害增加:  +{1}%  \n最大叠加层数:  {2}",
-        "PaladinSkill3DetailDesc": "防御力和减伤率随等级提高而增加。\n\n当前等级:  {0}  \n防御力加成:  +{1}  \n减伤率:  {2}%",
-        "DeadeyeSkill1Name": "精准训练",
-        "DeadeyeSkill2Name": "强力射击",
-        "DeadeyeSkill3Name": "影子步",
-        "DeadeyeSkill1Desc": "通过精准瞄准增加最小伤害。",
-        "DeadeyeSkill2Desc": "通过增强射击技巧增加最大伤害。",
-        "DeadeyeSkill3Desc": "提高闪避率，并在闪避时短暂无敌。",
-        "DeadeyeSkill1DetailDesc": "提高精准度以确保稳定伤害。\n最小伤害随等级提高而增加。\n\n当前等级:  {0}\n最小伤害增加:  +{1}%",
-        "DeadeyeSkill2DetailDesc": "强化射击以造成毁灭性伤害。\n最大伤害随等级提高而增加。\n\n当前等级:  {0}\n最大伤害增加:  +{1}%",
-        "DeadeyeSkill3DetailDesc": "通过影子技巧掌握闪避的艺术。\n闪避率随等级提高而增加，并赋予短暂的无敌效果。\n\n当前等级:  {0}\n闪避率:  +{1}%\n无敌持续时间:  1 秒",
-        "HunterSkill2Name": "乌鸦伙伴",
-        "HunterSkill3Name": "野兽掌控",
-        "HunterSkill2Desc": "自动召唤一只忠诚的乌鸦伙伴，与您并肩作战。",
-        "HunterSkill3Desc": "增加随从容量，并根据敏捷增强召唤伤害。",
-        "HunterSkill2DetailDesc": "召唤一只忠诚的乌鸦自动攻击敌人。\n乌鸦会随技能等级成长且不占用召唤位。\n\n当前等级: {0}\n乌鸦伤害: {1}",
-        "HunterSkill3DetailDesc": "掌握指挥多只生物作战的艺术。\n增加召唤容量并提升召唤伤害。\n\n当前等级: {0}\n额外召唤位: +{1}\n将 {2}% 敏捷转化为召唤伤害",
-        "ArchMageSkill1Name": "魔法精通",
-        "ArchMageSkill1Desc": "增加最小魔法伤害。",
-        "ArchMageSkill1DetailDesc": "提升你的魔法造诣以确保魔法伤害的稳定性。\n增加魔法攻击的最小伤害。\n\n当前等级: {0}\n最小伤害增加: +{1}%",
-        "ArchMageSkill2Name": "魔法飞弹",
-        "ArchMageSkill2Desc": "魔法攻击时自动发射魔法飞弹。",
-        "ArchMageSkill2DetailDesc": "使用魔法攻击敌人时自动发射追踪魔法飞弹。\n飞弹数量随最大法力值提升，冷却时间随等级减少。\n\n当前等级: {0}\n飞弹伤害: {1}\n冷却时间: {2} 秒",
-        "ArchMageSkill3Name": "瞬移",
-        "ArchMageSkill3Desc": "瞬间传送到鼠标光标位置。",
-        "ArchMageSkill3DetailDesc": "运用魔力瞬间传送。\n更高等级可增加传送距离并减少冷却时间。\n\n当前等级: {0}\n最大距离: {1} 像素\n冷却时间: {2} 秒",
-        "ClericSkill1Name": "魔法精通",
-        "ClericSkill1Desc": "增加最小魔法伤害。",
-        "ClericSkill1DetailDesc": "提升你的魔法造诣以确保魔法伤害的稳定性。\n增加魔法攻击的最小伤害。\n\n当前等级: {0}\n最小伤害增加: +{1}%",
-        "ClericSkill2Name": "法力护甲",
-        "ClericSkill2Desc": "根据最大法力值增加防御。",
-        "ClericSkill2DetailDesc": "将魔力转化为护甲以提升防御力。\n防御力随最大法力值提升而增加。\n\n当前等级: {0}\n每点法力增加防御: {1}%",
-        "ClericSkill3Name": "相位步",
-        "ClericSkill3Desc": "瞬间传送到鼠标光标位置。",
-        "ClericSkill3DetailDesc": "高级魔法允许更远距离的瞬移。\n与大法师的瞬移技能结合时效果更佳。\n\n当前等级: {0}\n额外距离: +{1} 像素\n冷却时间减少: -{2} 秒",
-        "InvokerSkill1Name": "召唤精通",
-        "InvokerSkill1Desc": "增加最小召唤伤害。",
-        "InvokerSkill1DetailDesc": "提升召唤造诣以确保召唤物伤害的稳定性。\n增加召唤攻击的最小伤害。\n\n当前等级: {0}\n最小伤害增加: +{1}%",
-        "InvokerSkill2Name": "召唤守护",
-        "InvokerSkill2Desc": "根据召唤物数量增加防御。",
-        "InvokerSkill2DetailDesc": "从你的召唤物获得守护以提升防御力。\n防御力随最大召唤物数量提升而增加。\n\n当前等级: {0}\n每个召唤物增加防御: +{1}",
-        "InvokerSkill3Name": "召唤强化",
-        "InvokerSkill3Desc": "临时提升召唤物速度和体型。",
-        "InvokerSkill3DetailDesc": "对召唤物施加强化魔法以提升其表现。\n更高等级可减少冷却时间并延长持续时间。\n\n当前等级: {0}\n冷却时间: {1} 秒\n持续时间: {2} 秒",
-        "NecromancerSkill1Name": "黑暗精通",
-        "NecromancerSkill1Desc": "增加最小召唤伤害。",
-        "NecromancerSkill1DetailDesc": "提升黑暗召唤造诣以确保召唤物伤害的稳定性。\n增加召唤攻击的最小伤害。\n\n当前等级: {0}\n最小伤害增加: +{1}%",
-        "NecromancerSkill2Name": "牺牲",
-        "NecromancerSkill2Desc": "引爆召唤物造成大量伤害。",
-        "NecromancerSkill2DetailDesc": "依次引爆召唤物以对敌人造成伤害。\n更高等级可提升伤害并减少冷却时间。\n\n当前等级: {0}\n爆炸伤害: {1}\n冷却时间: {2} 秒",
-        "NecromancerSkill3Name": "死灵术",
-        "NecromancerSkill3Desc": "牺牲生命值增加召唤位。",
-        "NecromancerSkill3DetailDesc": "牺牲生命力以召唤更多亡灵生物。\n更高等级可获得更多召唤位，但会减少更多生命值。\n\n当前等级: {0}\n额外召唤位: +{1}\n生命值减少: -{2}",
+			BerserkerSkill1DetailDesc:
+				'''
+				增加最小近战伤害  
+				最小伤害随等级提升而增加  
+
+				当前等级:  {0}  
+				最小伤害加成:  +{1}%
+				'''
+			BerserkerSkill2DetailDesc:
+				'''
+				生命值减少时暴击几率增加  
+				50% HP 或更低时效果最大化  
+
+				当前等级:  {0}  
+				最大暴击几率加成:  +{1}%
+				'''
+			BerserkerSkill3DetailDesc:
+				'''
+				以 1 HP 生存致命伤害  
+				不死持续时间和冷却时间随技能等级提高而减少  
+
+				当前等级:  {0}  
+				不死持续时间:  {1} 秒  
+				冷却时间:  {2} 秒
+				'''
+			PaladinSkill2Name: 战斗姿态
+			PaladinSkill3Name: 护盾防御
+			PaladinSkill2Desc: 攻击时获得近战伤害加成。
+			PaladinSkill3Desc: 增加防御力并根据防御力减少所受伤害。
+			PaladinSkill2DetailDesc:
+				'''
+				攻击时获得增加伤害的增益。  
+				该效果可叠加。
+
+				当前等级:  {0}  
+				每层叠加的伤害增加:  +{1}%  
+				最大叠加层数:  {2}
+				'''
+			PaladinSkill3DetailDesc:
+				'''
+				防御力和减伤率随等级提高而增加。
+
+				当前等级:  {0}  
+				防御力加成:  +{1}  
+				减伤率:  {2}%
+				'''
+			DeadeyeSkill1Name: 精准训练
+			DeadeyeSkill2Name: 强力射击
+			DeadeyeSkill3Name: 影子步
+			DeadeyeSkill1Desc: 通过精准瞄准增加最小伤害。
+			DeadeyeSkill2Desc: 通过增强射击技巧增加最大伤害。
+			DeadeyeSkill3Desc: 提高闪避率，并在闪避时短暂无敌。
+			DeadeyeSkill1DetailDesc:
+				'''
+				提高精准度以确保稳定伤害。
+				最小伤害随等级提高而增加。
+
+				当前等级:  {0}
+				最小伤害增加:  +{1}%
+				'''
+			DeadeyeSkill2DetailDesc:
+				'''
+				强化射击以造成毁灭性伤害。
+				最大伤害随等级提高而增加。
+
+				当前等级:  {0}
+				最大伤害增加:  +{1}%
+				'''
+			DeadeyeSkill3DetailDesc:
+				'''
+				通过影子技巧掌握闪避的艺术。
+				闪避率随等级提高而增加，并赋予短暂的无敌效果。
+
+				当前等级:  {0}
+				闪避率:  +{1}%
+				无敌持续时间:  1 秒
+				'''
+			HunterSkill2Name: 乌鸦伙伴
+			HunterSkill3Name: 野兽掌控
+			HunterSkill2Desc: 自动召唤一只忠诚的乌鸦伙伴，与您并肩作战。
+			HunterSkill3Desc: 增加随从容量，并根据敏捷增强召唤伤害。
+			HunterSkill2DetailDesc:
+				'''
+				召唤一只忠诚的乌鸦自动攻击敌人。
+				乌鸦会随技能等级成长且不占用召唤位。
+
+				当前等级: {0}
+				乌鸦伤害: {1}
+				'''
+			HunterSkill3DetailDesc:
+				'''
+				掌握指挥多只生物作战的艺术。
+				增加召唤容量并提升召唤伤害。
+
+				当前等级: {0}
+				额外召唤位: +{1}
+				将 {2}% 敏捷转化为召唤伤害
+				'''
+			ArchMageSkill1Name: 魔法精通
+			ArchMageSkill1Desc: 增加最小魔法伤害。
+			ArchMageSkill1DetailDesc:
+				'''
+				提升你的魔法造诣以确保魔法伤害的稳定性。
+				增加魔法攻击的最小伤害。
+
+				当前等级: {0}
+				最小伤害增加: +{1}%
+				'''
+			ArchMageSkill2Name: 魔法飞弹
+			ArchMageSkill2Desc: 魔法攻击时自动发射魔法飞弹。
+			ArchMageSkill2DetailDesc:
+				'''
+				使用魔法攻击敌人时自动发射追踪魔法飞弹。
+				飞弹数量随最大法力值提升，冷却时间随等级减少。
+
+				当前等级: {0}
+				飞弹伤害: {1}
+				冷却时间: {2} 秒
+				'''
+			ArchMageSkill3Name: 瞬移
+			ArchMageSkill3Desc: 瞬间传送到鼠标光标位置。
+			ArchMageSkill3DetailDesc:
+				'''
+				运用魔力瞬间传送。
+				更高等级可增加传送距离并减少冷却时间。
+
+				当前等级: {0}
+				最大距离: {1} 像素
+				冷却时间: {2} 秒
+				'''
+			ClericSkill1Name: 魔法精通
+			ClericSkill1Desc: 增加最小魔法伤害。
+			ClericSkill1DetailDesc:
+				'''
+				提升你的魔法造诣以确保魔法伤害的稳定性。
+				增加魔法攻击的最小伤害。
+
+				当前等级: {0}
+				最小伤害增加: +{1}%
+				'''
+			ClericSkill2Name: 法力护甲
+			ClericSkill2Desc: 根据最大法力值增加防御。
+			ClericSkill2DetailDesc:
+				'''
+				将魔力转化为护甲以提升防御力。
+				防御力随最大法力值提升而增加。
+
+				当前等级: {0}
+				每点法力增加防御: {1}%
+				'''
+			ClericSkill3Name: 相位步
+			ClericSkill3Desc: 瞬间传送到鼠标光标位置。
+			ClericSkill3DetailDesc:
+				'''
+				高级魔法允许更远距离的瞬移。
+				与大法师的瞬移技能结合时效果更佳。
+
+				当前等级: {0}
+				额外距离: +{1} 像素
+				冷却时间减少: -{2} 秒
+				'''
+			InvokerSkill1Name: 召唤精通
+			InvokerSkill1Desc: 增加最小召唤伤害。
+			InvokerSkill1DetailDesc:
+				'''
+				提升召唤造诣以确保召唤物伤害的稳定性。
+				增加召唤攻击的最小伤害。
+
+				当前等级: {0}
+				最小伤害增加: +{1}%
+				'''
+			InvokerSkill2Name: 召唤守护
+			InvokerSkill2Desc: 根据召唤物数量增加防御。
+			InvokerSkill2DetailDesc:
+				'''
+				从你的召唤物获得守护以提升防御力。
+				防御力随最大召唤物数量提升而增加。
+
+				当前等级: {0}
+				每个召唤物增加防御: +{1}
+				'''
+			InvokerSkill3Name: 召唤强化
+			InvokerSkill3Desc: 临时提升召唤物速度和体型。
+			InvokerSkill3DetailDesc:
+				'''
+				对召唤物施加强化魔法以提升其表现。
+				更高等级可减少冷却时间并延长持续时间。
+
+				当前等级: {0}
+				冷却时间: {1} 秒
+				持续时间: {2} 秒
+				'''
+			NecromancerSkill1Name: 黑暗精通
+			NecromancerSkill1Desc: 增加最小召唤伤害。
+			NecromancerSkill1DetailDesc:
+				'''
+				提升黑暗召唤造诣以确保召唤物伤害的稳定性。
+				增加召唤攻击的最小伤害。
+
+				当前等级: {0}
+				最小伤害增加: +{1}%
+				'''
+			NecromancerSkill2Name: 牺牲
+			NecromancerSkill2Desc: 引爆召唤物造成大量伤害。
+			NecromancerSkill2DetailDesc:
+				'''
+				依次引爆召唤物以对敌人造成伤害。
+				更高等级可提升伤害并减少冷却时间。
+
+				当前等级: {0}
+				爆炸伤害: {1}
+				冷却时间: {2} 秒
+				'''
+			NecromancerSkill3Name: 死灵术
+			NecromancerSkill3Desc: 牺牲生命值增加召唤位。
+			NecromancerSkill3DetailDesc:
+				'''
+				牺牲生命力以召唤更多亡灵生物。
+				更高等级可获得更多召唤位，但会减少更多生命值。
+
+				当前等级: {0}
+				额外召唤位: +{1}
+				生命值减少: -{2}
+				'''
 			// 쿨타임 버프 관련
-        "TeleportCooldownName": "瞬移冷却",
-        "TeleportCooldownTip": "{0} 秒内无法瞬移",
-        "MinionBoostCooldownName": "召唤强化冷却",
-        "MinionBoostCooldownTip": "{0} 秒内无法强化召唤物",
-        "ExplosionCooldownName": "爆炸冷却",
-        "ExplosionCooldownTip": "{0} 秒内无法引爆召唤物",
-        "MagicMissileCooldownName": "魔法飞弹冷却",
-        "MagicMissileCooldownTip": "{0} 秒内无法释放魔法飞弹",
-        "ImmortaltyCooldownName": "不死冷却",
-        "ImmortaltyCooldownTip": "{0} 秒内无法激活不死",
-        "SkillCooldownName": "技能冷却",
-        "SkillCooldownTip": "技能冷却中",
+			TeleportCooldownName: 瞬移冷却
+			TeleportCooldownTip: "{0} 秒内无法瞬移"
+			MinionBoostCooldownName: 召唤强化冷却
+			MinionBoostCooldownTip: "{0} 秒内无法强化召唤物"
+			ExplosionCooldownName: 爆炸冷却
+			ExplosionCooldownTip: "{0} 秒内无法引爆召唤物"
+			MagicMissileCooldownName: 魔法飞弹冷却
+			MagicMissileCooldownTip: "{0} 秒内无法释放魔法飞弹"
+			ImmortaltyCooldownName: 不死冷却
+			ImmortaltyCooldownTip: "{0} 秒内无法激活不死"
+			SkillCooldownName: 技能冷却
+			SkillCooldownTip: 技能冷却中
 			// Skill Upgrade Messages
-        "SkillUpgradeMsg": "{0} 等级 {1}!",
-        "SkillUpgradeAction": "点击升级！",
-        "SkillMaxLevel": "已达最大等级!",
+			SkillUpgradeMsg: "{0} 等级 {1}!"
+			SkillUpgradeAction: 点击升级！
+			SkillMaxLevel: 已达最大等级!
 			// === EXP BAR LOCALIZATION ===
 			
 			// Experience Bar
-        "LevelText": "Lv.{0}",
-        "ExpText": "{0}/{1}",
-        "StatPointAlert": "属性点: {0} (按C键打开)",
-        "SecondJobChangeTitle": "职业"
-      },
-      "Buffs": {
-        "MeteorStackBuff": {
-          "DisplayName": "陨石堆叠 ({0}/{1})",
-          "Description": "右键移除"
-        },
-        "ExpDoubleBuff": {
-          "DisplayName": "双倍经验",
-          "Description": "获得双倍经验值"
-        },
-        "ImmortalCooldownBuff": {
-          "DisplayName": "技能冷却",
-          "Description": "暂时无法使用技能"
-        }
-      },
-      "NPCs": {
-        "RPGStatTrainer": {
-          "DisplayName": "冒险者",
-          "TownNPCMood": {
-            "Content": "我很满足。",
-            "NoHome": "我想要一间房子。",
-            "FarFromHome": "离家太远了。",
-            "LoveSpace": "我喜欢有这么多空间！",
-            "DislikeCrowded": "我不喜欢太拥挤。",
-            "HateCrowded": "我讨厌太拥挤了。",
-            "LikeBiome": "我喜欢这里。",
-            "DislikeBiome": "我不喜欢这里。",
-            "LoveNPC": "我喜欢{NPCName}。",
-            "LikeNPC": "我喜欢{NPCName}。",
-            "DislikeNPC": "我不喜欢{NPCName}。",
-            "HateNPC": "我讨厌{NPCName}。",
-            "LikeNPC_Princess": "我喜欢{NPCName}。",
-            "Princess_LovesNPC": "我喜欢{NPCName}。"
-          }
-        }
-      },
-      "Chat": {
-        "RPGStatTrainer": {
-          "StandardChat1": "你好！我可以帮你管理属性。如果需要物品请查看我的商店！",
-          "StandardChat2": "提升属性是变强的关键！",
-          "StandardChat3": "我研究战斗技巧多年。想学点什么吗？",
-          "StandardChat4": "你的进步令人印象深刻！继续努力。",
-          "StandardChat5": "记住，属性均衡才能战斗均衡！"
-        }
-      },
-      "NPCNames": {
-        "RPGStatTrainer": {
-          "Marcus": "埃米尔",
-          "Elena": "艾琳娜",
-          "Victor": "诺艾尔"
-        }
-      },
-      "Messages": {
-        "TrainerArrived": "属性训练师已到达！",
-        "TrainerSpawned": "属性训练师已生成！"
-      },
-      "Items": {
-        "ExpDoubleCoupon": {
-          "DisplayName": "经验双倍券",
-          "Tooltip": "在限定时间内获得双倍经验"
-        }
-      }
-    }
-  }
+			LevelText: Lv.{0}
+			ExpText: "{0}/{1}"
+			StatPointAlert: 属性点: {0} (按C键打开)
+			SecondJobChangeTitle: 职业
+		}
+
+		Buffs: {
+			MeteorStackBuff: {
+				DisplayName: 陨石堆叠 ({0}/{1})
+				Description: 右键移除
+			}
+
+			ExpDoubleBuff: {
+				DisplayName: 双倍经验
+				Description: 获得双倍经验值
+			}
+
+			ImmortalCooldownBuff: {
+				DisplayName: 技能冷却
+				Description: 暂时无法使用技能
+			}
+		}
+
+		NPCs: {
+			RPGStatTrainer: {
+				DisplayName: 冒险者
+
+				TownNPCMood: {
+					Content: 我很满足。
+					NoHome: 我想要一间房子。
+					FarFromHome: 离家太远了。
+					LoveSpace: 我喜欢有这么多空间！
+					DislikeCrowded: 我不喜欢太拥挤。
+					HateCrowded: 我讨厌太拥挤了。
+					LikeBiome: 我喜欢这里。
+					DislikeBiome: 我不喜欢这里。
+					LoveNPC: 我喜欢{NPCName}。
+					LikeNPC: 我喜欢{NPCName}。
+					DislikeNPC: 我不喜欢{NPCName}。
+					HateNPC: 我讨厌{NPCName}。
+					LikeNPC_Princess: 我喜欢{NPCName}。
+					Princess_LovesNPC: 我喜欢{NPCName}。
+				}
+			}
+		}
+
+		Chat: {
+			RPGStatTrainer: {
+				StandardChat1: 你好！我可以帮你管理属性。如果需要物品请查看我的商店！
+				StandardChat2: 提升属性是变强的关键！
+				StandardChat3: 我研究战斗技巧多年。想学点什么吗？
+				StandardChat4: 你的进步令人印象深刻！继续努力。
+				StandardChat5: 记住，属性均衡才能战斗均衡！
+			}
+		}
+
+		NPCNames: {
+			RPGStatTrainer: {
+				Marcus: 埃米尔
+				Elena: 艾琳娜
+				Victor: 诺艾尔
+			}
+		}
+
+		Messages: {
+			TrainerArrived: 属性训练师已到达！
+			TrainerSpawned: 属性训练师已生成！
+		}
+
+		Items: {
+			ExpDoubleCoupon: {
+				DisplayName: 经验双倍券
+				Tooltip: 在限定时间内获得双倍经验
+			}
+		}
+	}
 }
