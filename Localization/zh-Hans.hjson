@@ -1,0 +1,549 @@
+Mods: {
+	SimpleRpgstat: {
+		UI: {
+			// StatShop: Stat Shop
+			// Shop: Shop
+			// StatTitle: Character Stats
+			// LevelUp: Level Up! Lv.{0} (+3 Stat Points)
+			// ExpGain: +{0} EXP
+			// StatPoints: Stat Points: {0}
+			// DetailInfo: "[Details]"
+			// CloseKey: Press [C] or [ESC] to close
+			// Job Names
+			// JobBeginner: Beginner
+			// JobWarrior: Warrior
+			// JobWarrior1: Berserker
+			// JobWarrior2: Paladin
+			// JobWarrior3: Crusader
+			// JobRanger: Ranger
+			// JobRanger1: Deadeye
+			// JobRanger2: Hunter
+			// JobRanger3: Ranger3
+			// JobMage: Mage
+			// JobMage1: Arch Mage
+			// JobMage2: Cleric
+			// JobMage3: Mage3
+			// JobSummoner: Summoner
+			// JobSummoner1: Invoker
+			// JobSummoner2: Necromancer
+			// JobSummoner3: Summoner3
+			// JobUnknown: Unknown
+			// Stats
+			// StatSTR: STR
+			// StatDEX: DEX
+			// StatINT: INT
+			// StatLUK: LUK
+			// Damage Types
+			// MeleeDamage: Melee
+			// RangedDamage: Ranged
+			// MagicDamage: Magic
+			// SummonDamage: Summon
+			// WhipDamage: Whip
+			// OtherDamage: Other
+			// Status Info
+			// WeaponDamage: "{0} Weapon: {1}~{2}"
+			// WeaponDamageNone: Weapon Damage: None
+			// DamageBonus: "{0}: +{1}% (+{2}%)"
+			// CritChance: Crt: {0}% (+{1}%)
+			// MaxMana: Max Mana: {0} (+{1})
+			// Luck: Luck: {0} (+{1})
+			// === SKILL UI LOCALIZATION ===
+			
+			// Skill UI Main
+			// SkillTreeTitle: "[Skill Tree]"
+			// SkillPointsText: Skill Points: {0}
+			// SkillUICloseKey: "[K] or [ESC] to close"
+			// Job Change Section
+			// JobChangeTitle: Job Change
+			// JobChangeCondition1: Requirements: Level 10+
+			// JobChangeCondition2: All beginner skill points used
+			// JobChangeBonus: Job Change Bonus: +1 Skill Point
+			// JobChangeAction: Click to change job!
+			// JobChangeSuccessMsg: Congratulations! You have changed to {0}!
+			// JobChangeBonusMsg: You received 1 skill point as a job change bonus!
+			// JobChangeLevelError: You must be level 10 or higher to change jobs!
+			// JobChangeSkillError: You must invest at least 10 points in basic skills to change jobs!
+			// Job Descriptions
+			// JobDescBeginner: The beginning of everything
+			// JobDescWarrior: Master of powerful melee combat
+			// JobDescRanger: Expert in precise ranged attacks
+			// JobDescMage: User of mysterious magic
+			// JobDescSummoner: Master who controls minions
+			// Skill Section Names
+			// BasicSkillsTitle: Basic Skills
+			// Basic Skills
+			// SkillHPName: Health Boost
+			// SkillHPDesc: Increases maximum health.
+			/* SkillHPDetail:
+				'''
+				Increases maximum health by {1}.
+
+				Current Level: {0}
+				Health Increase: +{1} HP
+				''' */
+			// SkillMPName: Mana Boost
+			// SkillMPDesc: Increases maximum mana.
+			/* SkillMPDetail:
+				'''
+				Increases maximum mana by {1}.
+
+				Current Level: {0}
+				Mana Increase: +{1} MP
+				''' */
+			// SkillSPDName: Swift Movement
+			// SkillSPDDesc: Increases movement speed.
+			/* SkillSPDDetail:
+				'''
+				Increases movement speed by {1}%.
+
+				Current Level: {0}
+				Speed Increase: +{1}%
+				''' */
+			// Warrior Skills
+			// WarriorSkill1Name: Shield Defense
+			// WarriorSkill1Desc: Increases defense.
+			/* WarriorSkill1DetailDesc:
+				'''
+				Increases defense by {0}.
+
+				Current Level: {1}
+				Defense Increase: +{2}
+				''' */
+			// WarriorSkill2Name: Power Strike
+			// WarriorSkill2Desc: Chance to deal enhanced attack damage.
+			/* WarriorSkill2DetailDesc:
+				'''
+				Chance to deal 250% enhanced attack damage.
+				Increases power strike chance by {0}%.
+
+				Current Level: {1}
+				Power Strike Chance: +{2}%
+				''' */
+			// WarriorSkill3Name: Healthy Body
+			// WarriorSkill3Desc: Increases max health and melee damage based on current health.
+			/* WarriorSkill3DetailDesc:
+				'''
+				Increases max health and
+				melee damage based on current health.
+				Max Health +{0}
+				Damage [+{1}% of current health] increase
+
+				Current Level: {2}
+				''' */
+			// Ranger Skills
+			// RangerSkill1Name: Double Shot
+			// RangerSkill1Desc: Fires 2 arrows simultaneously.
+			/* RangerSkill1DetailDesc:
+				'''
+				Fires 2 arrows simultaneously.
+				Second arrow damage increases with level
+
+				Current Level: {0}
+				Second Arrow Damage: {1}%
+				''' */
+			// RangerSkill2Name: Critical Focus
+			// RangerSkill2Desc: Increases ranged attack critical chance.
+			/* RangerSkill2DetailDesc:
+				'''
+				Increases ranged attack critical chance.
+				+2% increase per level
+
+				Current Level: {0}
+				Critical Chance Increase: +{1}%
+				''' */
+			// RangerSkill3Name: Arrow Penetration
+			// RangerSkill3Desc: Chance for projectiles to penetrate enemies.
+			/* RangerSkill3DetailDesc:
+				'''
+				Chance for projectiles to penetrate enemies.
+
+				Current Level: {0}
+				Penetration Chance: {1}%
+				''' */
+			// Mage Skills
+			// MageSkill1Name: Mana Amplification
+			// MageSkill1Desc: Increases maximum mana.
+			/* MageSkill1DetailDesc:
+				'''
+				Increases maximum mana.
+
+				Current Level: {0}
+				Max Mana: +{1}
+				''' */
+			// MageSkill2Name: Magic Guard
+			// MageSkill2Desc: Some damage taken is absorbed by mana instead.
+			/* MageSkill2DetailDesc:
+				'''
+				Some damage taken is absorbed by mana instead.
+				Only applies when current mana is 50% or higher.
+				Current Level: {0}
+				Damage absorbed by mana: {1}%
+				''' */
+			// MageSkill3Name: Overcharge
+			// MageSkill3Desc: Increases mana cost and amplifies damage.
+			/* MageSkill3DetailDesc:
+				'''
+				Increases mana cost and amplifies damage.
+
+				Current Level: {0}
+				Mana Cost: +{1}%, Magic Damage Increase: +{2}%
+				''' */
+			// Summoner Skills
+			// SummonerSkill1Name: Deadly Minions
+			// SummonerSkill1Desc: Summoner attacks deal critical damage.
+			/* SummonerSkill1DetailDesc:
+				'''
+				Summoner attacks deal critical damage.
+
+				Current Level: {0}
+				Critical Damage: +{1}%
+				''' */
+			// SummonerSkill2Name: Summoning Mastery
+			// SummonerSkill2Desc: Increases maximum minions.
+			/* SummonerSkill2DetailDesc:
+				'''
+				+1 summon slot per 5 levels
+				Increases summon damage
+
+				Current Level: {0}
+				Additional Slots: +{1}, Summon Damage Increase: +{2}%
+				''' */
+			// SummonerSkill3Name: Extended Strike
+			// SummonerSkill3Desc: Increases whip range.
+			/* SummonerSkill3DetailDesc:
+				'''
+				Increases whip range.
+
+				Current Level: {0}
+				Whip Range: {1}%
+				''' */
+			// Berserker Skill Names
+			// BerserkerSkill1Name: Sword Mastery
+			// BerserkerSkill2Name: Rage
+			// BerserkerSkill3Name: Immortality
+			// Berserker Skill Short Descriptions
+			// BerserkerSkill1Desc: Increases minimum melee damage.
+			// BerserkerSkill2Desc: Gains critical hit chance when taking damage.
+			// BerserkerSkill3Desc: Chance to survive fatal damage.
+			// Berserker Skill Detailed Descriptions
+			/* BerserkerSkill1DetailDesc:
+				'''
+				Increases minimum melee damage  
+				Minimum damage increases per level  
+
+				Current Level: {0}  
+				Minimum Damage Bonus: +{1}%
+				''' */
+			/* BerserkerSkill2DetailDesc:
+				'''
+				Critical hit chance increases as health decreases  
+				Maximum effect at 50% HP or lower  
+
+				Current Level: {0}  
+				Maximum Critical Hit Chance Bonus: +{1}%
+				''' */
+			/* BerserkerSkill3DetailDesc:
+				'''
+				Survive fatal damage with 1 HP  
+				Immortality duration and cooldown decrease with skill level  
+
+				Current Level: {0}  
+				Immortality Duration: {1} seconds  
+				Cooldown: {2} seconds
+				''' */
+			// PaladinSkill2Name: Combat Stance
+			// PaladinSkill3Name: Shield Defense
+			// PaladinSkill2Desc: Gain a melee damage buff upon landing an attack.
+			// PaladinSkill3Desc: Increases defense and reduces damage taken based on your defense.
+			/* PaladinSkill2DetailDesc:
+				'''
+				Gain a buff that increases damage when attacking.  
+				This effect stacks.
+
+				Current Level: {0}  
+				Damage Increase per Stack: +{1}%  
+				Maximum Stacks: {2}
+				''' */
+			/* PaladinSkill3DetailDesc:
+				'''
+				Defense and reduction rate increase with level.
+
+				Current Level: {0}  
+				Defense Bonus: +{1}  
+				Damage Reduction Rate: {2}%
+				''' */
+			// DeadeyeSkill1Name: Precision Training
+			// DeadeyeSkill2Name: Power Shot
+			// DeadeyeSkill3Name: Shadow Step
+			// DeadeyeSkill1Desc: Increases minimum damage through precise targeting.
+			// DeadeyeSkill2Desc: Increases maximum damage through enhanced shooting technique.
+			// DeadeyeSkill3Desc: Increases evasion rate and grants brief invincibility when dodging.
+			/* DeadeyeSkill1DetailDesc:
+				'''
+				Enhance your precision to deal consistent damage.
+				Minimum damage increases with level.
+
+				Current Level: {0}
+				Minimum Damage Increase: +{1}%
+				''' */
+			/* DeadeyeSkill2DetailDesc:
+				'''
+				Strengthen your shots to deal devastating damage.
+				Maximum damage increases with level.
+
+				Current Level: {0}
+				Maximum Damage Increase: +{1}%
+				''' */
+			/* DeadeyeSkill3DetailDesc:
+				'''
+				Master the art of evasion through shadow techniques.
+				Evasion rate increases with level and grants invincibility.
+
+				Current Level: {0}
+				Evasion Rate: +{1}%
+				Invincibility Duration: 1 second
+				''' */
+			// HunterSkill2Name: Raven Companion
+			// HunterSkill3Name: Beast Mastery
+			// HunterSkill2Desc: Automatically summons a loyal raven companion that fights alongside you.
+			// HunterSkill3Desc: Increases minion capacity and enhances summon damage based on dexterity.
+			/* HunterSkill2DetailDesc:
+				'''
+				Summon a faithful raven that automatically attacks enemies.
+				The raven grows stronger with skill level and uses no minion slots.
+
+				Current Level: {0}
+				Raven Damage: {1}
+				''' */
+			/* HunterSkill3DetailDesc:
+				'''
+				Master the art of commanding multiple creatures in battle.
+				Increases minion capacity and enhances summon damage.
+
+				Current Level: {0}
+				Additional Minion Slots: +{1}
+				Converts {2}% of Dexterity to Summon Damage
+				''' */
+			// ArchMageSkill1Name: Magic Mastery
+			// ArchMageSkill1Desc: Increases minimum magic damage.
+			/* ArchMageSkill1DetailDesc:
+				'''
+				Enhance your magical proficiency to ensure stable magic damage.
+				Increases minimum damage of magic attacks.
+
+				Current Level: {0}
+				Minimum Damage Increase: +{1}%
+				''' */
+			// ArchMageSkill2Name: Magic Missile
+			// ArchMageSkill2Desc: Automatically fires magic missiles when attacking with magic.
+			/* ArchMageSkill2DetailDesc:
+				'''
+				Automatically launches guided missiles when attacking enemies with magic.
+				Missile count scales with maximum mana, and cooldown decreases with level.
+
+				Current Level: {0}
+				Missile Damage: {1}
+				Cooldown: {2} seconds
+				''' */
+			// ArchMageSkill3Name: Teleport
+			// ArchMageSkill3Desc: Instantly teleport to mouse cursor location.
+			/* ArchMageSkill3DetailDesc:
+				'''
+				Use magical power to teleport instantly.
+				Higher levels increase teleport distance and reduce cooldown.
+
+				Current Level: {0}
+				Maximum Distance: {1} pixels
+				Cooldown: {2} seconds
+				''' */
+			// ClericSkill1Name: Magic Mastery
+			// ClericSkill1Desc: Increases minimum magic damage.
+			/* ClericSkill1DetailDesc:
+				'''
+				Enhance your magical proficiency to ensure stable magic damage.
+				Increases minimum damage of magic attacks.
+
+				Current Level: {0}
+				Minimum Damage Increase: +{1}%
+				''' */
+			// ClericSkill2Name: Mana Armor
+			// ClericSkill2Desc: Increases defense based on maximum mana.
+			/* ClericSkill2DetailDesc:
+				'''
+				Convert magical power into armor to increase defense.
+				Defense increases proportionally to maximum mana.
+
+				Current Level: {0}
+				Defense per Mana: {1}%
+				''' */
+			// ClericSkill3Name: Phase Step
+			// ClericSkill3Desc: Instantly teleport to mouse cursor location.
+			/* ClericSkill3DetailDesc:
+				'''
+				Advanced magic allows teleportation over greater distances.
+				Becomes more powerful when combined with Arch Mage's Teleport.
+
+				Current Level: {0}
+				Additional Distance: +{1} pixels
+				Cooldown Reduction: -{2} seconds
+				''' */
+			// InvokerSkill1Name: Summon Mastery
+			// InvokerSkill1Desc: Increases minimum summon damage.
+			/* InvokerSkill1DetailDesc:
+				'''
+				Enhance summoning proficiency to ensure stable minion damage.
+				Increases minimum damage of summon attacks.
+
+				Current Level: {0}
+				Minimum Damage Increase: +{1}%
+				''' */
+			// InvokerSkill2Name: Minion Guard
+			// InvokerSkill2Desc: Increases defense based on number of minions.
+			/* InvokerSkill2DetailDesc:
+				'''
+				Receive protection from your minions to increase defense.
+				Defense increases proportionally to maximum minion count.
+
+				Current Level: {0}
+				Defense per Minion: +{1}
+				''' */
+			// InvokerSkill3Name: Minion Boost
+			// InvokerSkill3Desc: Temporarily increases minion speed and size.
+			/* InvokerSkill3DetailDesc:
+				'''
+				Cast enhancement magic on minions to improve their performance.
+				Higher levels reduce cooldown and increase duration.
+
+				Current Level: {0}
+				Cooldown: {1} seconds
+				Duration: {2} seconds
+				''' */
+			// NecromancerSkill1Name: Dark Mastery
+			// NecromancerSkill1Desc: Increases minimum summon damage.
+			/* NecromancerSkill1DetailDesc:
+				'''
+				Enhance dark summoning proficiency to ensure stable minion damage.
+				Increases minimum damage of summon attacks.
+
+				Current Level: {0}
+				Minimum Damage Increase: +{1}%
+				''' */
+			// NecromancerSkill2Name: Sacrifice
+			// NecromancerSkill2Desc: Explode minions to deal massive damage.
+			/* NecromancerSkill2DetailDesc:
+				'''
+				Detonate minions in sequence to damage enemies.
+				Higher levels increase damage and reduce cooldown.
+
+				Current Level: {0}
+				Explosion Damage: {1}
+				Cooldown: {2} seconds
+				''' */
+			// NecromancerSkill3Name: Necromancy
+			// NecromancerSkill3Desc: Sacrifice health to increase minion slots.
+			/* NecromancerSkill3DetailDesc:
+				'''
+				Sacrifice your life force to summon more undead creatures.
+				Higher levels grant more slots but reduce more health.
+
+				Current Level: {0}
+				Additional Minion Slots: +{1}
+				Health Reduction: -{2}
+				''' */
+			// 쿨타임 버프 관련
+			// TeleportCooldownName: Teleport Cooldown
+			// TeleportCooldownTip: Cannot teleport for {0} seconds
+			// MinionBoostCooldownName: Minion Boost Cooldown
+			// MinionBoostCooldownTip: Cannot boost minions for {0} seconds
+			// ExplosionCooldownName: Explosion Cooldown
+			// ExplosionCooldownTip: Cannot explode minions for {0} seconds
+			// MagicMissileCooldownName: Magic Missile Cooldown
+			// MagicMissileCooldownTip: Cannot cast magic missile for {0} seconds
+			// ImmortaltyCooldownName: Immortality Cooldown
+			// ImmortaltyCooldownTip: Cannot activate immortality for {0} seconds
+			// SkillCooldownName: Skill Cooldown
+			// SkillCooldownTip: Skill on cooldown
+			// Skill Upgrade Messages
+			// SkillUpgradeMsg: "{0} Level {1}!"
+			// SkillUpgradeAction: Click to upgrade!
+			// SkillMaxLevel: Max level reached!
+			// === EXP BAR LOCALIZATION ===
+			
+			// Experience Bar
+			// LevelText: Lv.{0}
+			// ExpText: "{0}/{1}"
+			// StatPointAlert: Stat Points: {0} (Press C to open)
+			// SecondJobChangeTitle: Class
+		}
+
+		Buffs: {
+			MeteorStackBuff: {
+				// DisplayName: Meteor Stack ({0}/{1})
+				// Description: Right-click to remove
+			}
+
+			ExpDoubleBuff: {
+				// DisplayName: Double EXP
+				// Description: Gain double experience points
+			}
+
+			ImmortalCooldownBuff: {
+				// DisplayName: Skill Cooldown
+				// Description: Cannot use skill temporarily
+			}
+		}
+
+		NPCs: {
+			RPGStatTrainer: {
+				// DisplayName: adventurer
+
+				TownNPCMood: {
+					// Content: I am content.
+					// NoHome: I would like a house please.
+					// FarFromHome: I am too far from home.
+					// LoveSpace: I love having so much space!
+					// DislikeCrowded: I dislike how crowded I am.
+					// HateCrowded: I hate how crowded I am.
+					// LikeBiome: I like it here.
+					// DislikeBiome: I dislike it here.
+					// LoveNPC: I love {NPCName}.
+					// LikeNPC: I like {NPCName}.
+					// DislikeNPC: I dislike {NPCName}.
+					// HateNPC: I hate {NPCName}.
+					// LikeNPC_Princess: I like {NPCName}.
+					// Princess_LovesNPC: I like {NPCName}.
+				}
+			}
+		}
+
+		Chat: {
+			RPGStatTrainer: {
+				// StandardChat1: Hello! I can help you manage your stats. Check out my shop if you need any items!
+				// StandardChat2: Training your stats is the key to becoming stronger!
+				// StandardChat3: I've been studying combat techniques for years. Want to learn something?
+				// StandardChat4: Your progress is impressive! Keep up the good work.
+				// StandardChat5: Remember, balanced stats lead to balanced combat!
+			}
+		}
+
+		NPCNames: {
+			RPGStatTrainer: {
+				// Marcus: Emil
+				// Elena: Elena
+				// Victor: Noel
+			}
+		}
+
+		Messages: {
+			// TrainerArrived: A Stat Trainer has arrived!
+			// TrainerSpawned: Stat Trainer has been spawned!
+		}
+
+		Items: {
+			ExpDoubleCoupon: {
+				// DisplayName: Experience Double Coupon
+				// Tooltip: Doubles experience gain for a limited time
+			}
+		}
+	}
+}
