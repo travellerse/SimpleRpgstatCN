@@ -1,93 +1,85 @@
-Mods: {
-	SimpleRpgstat: {
-		UI: {
-			StatTitle: 角色属性
-			LevelUp: 升级了！Lv.{0}(+3 属性点)
-			ExpGain: +{0} 经验
-			StatPoints: 属性点: {0}
-			DetailInfo: "[详细信息]"
-			CloseKey: 按 [C] 或 [ESC] 关闭
+{
+  "Mods": {
+    "SimpleRpgstat": {
+      "UI": {
+        "StatTitle": "角色属性",
+        "LevelUp": "升级了！Lv.{0}(+3 属性点)",
+        "ExpGain": "+{0} 经验",
+        "StatPoints": "属性点: {0}",
+        "DetailInfo": "[详细信息]",
+        "CloseKey": "按 [C] 或 [ESC] 关闭",
 			// Job Names
-			JobBeginner: 新手
-			JobWarrior: 战士
-			JobRanger: 游侠
-			JobMage: 法师
-			JobSummoner: 召唤师
-			JobUnknown: 未知
+        "JobBeginner": "新手",
+        "JobWarrior": "战士",
+        "JobRanger": "游侠",
+        "JobMage": "法师",
+        "JobSummoner": "召唤师",
+        "JobUnknown": "未知",
 			// Stats
-			StatSTR: 力量(STR)
-			StatDEX: 敏捷(DEX)
-			StatINT: 智力(INT)
-			StatLUK: 幸运(LUK)
+        "StatSTR": "力量(STR)",
+        "StatDEX": "敏捷(DEX)",
+        "StatINT": "智力(INT)",
+        "StatLUK": "幸运(LUK)",
 			// Damage Types
-			MeleeDamage: 近战
-			RangedDamage: 远程
-			MagicDamage: 魔法
-			SummonDamage: 召唤
-			WhipDamage: 鞭子
-			OtherDamage: 其他
+        "MeleeDamage": "近战",
+        "RangedDamage": "远程",
+        "MagicDamage": "魔法",
+        "SummonDamage": "召唤",
+        "WhipDamage": "鞭子",
+        "OtherDamage": "其他",
 			// Status Info
-			WeaponDamage: "{0}武器: {1}~{2}"
-			WeaponDamageNone: 武器伤害: 无
-			DamageBonus: "{0}: +{1}%(+{2}%)"
-			CritChance: 暴击: {0}%(+{1}%)
-			MaxMana: 最大法力: {0}(+{1})
-			Luck: 幸运: {0}(+{1})
-		}
-	}
-}
-
-Buffs: {
-	MeteorStackBuff: {
-		DisplayName: 陨石堆叠 ({0}/{1})
-		Description: 右键移除
-	}
-
-	ExpDoubleBuff: {
-		DisplayName: 双倍经验
-		Description: 获得双倍经验值
-	}
-
-	ImmortalCooldownBuff: {
-		DisplayName: 技能冷却
-		Description: 暂时无法使用技能
-	}
-
-	ImmortalBuff: {
-		DisplayName: 不死增益
-		Description: 获得短暂的不死效果
-	}
-
-	CooldownBuff: {
-		DisplayName: 冷却增益
-		Description: 技能冷却中
-	}
-}
-
-TownNPCMood: {
-}
+        "WeaponDamage": "{0}武器: {1}~{2}",
+        "WeaponDamageNone": "武器伤害: 无",
+        "DamageBonus": "{0}: +{1}%(+{2}%)",
+        "CritChance": "暴击: {0}%(+{1}%)",
+        "MaxMana": "最大法力: {0}(+{1})",
+        "Luck": "幸运: {0}(+{1})"
+      }
+    }
+  },
+  "Buffs": {
+    "MeteorStackBuff": {
+      "DisplayName": "陨石堆叠 ({0}/{1})",
+      "Description": "右键移除"
+    },
+    "ExpDoubleBuff": {
+      "DisplayName": "双倍经验",
+      "Description": "获得双倍经验值"
+    },
+    "ImmortalCooldownBuff": {
+      "DisplayName": "技能冷却",
+      "Description": "暂时无法使用技能"
+    },
+    "ImmortalBuff": {
+      "DisplayName": "不死增益",
+      "Description": "获得短暂的不死效果"
+    },
+    "CooldownBuff": {
+      "DisplayName": "冷却增益",
+      "Description": "技能冷却中"
+    }
+  },
+  "TownNPCMood": {},
 
 // NPCs.RPGStatTrainer.Census.SpawnCondition: Conditions unknown
 
-Keybinds: {
-	"Open Skill UI.DisplayName": 打开技能界面
-	"Open Stat UI.DisplayName": 打开属性界面
-	"Skill 1 USE.DisplayName": 释放技能1
-}
-
-Items: {
-	ExpDoubleCoupon: {
-	}
-}
-
-Projectiles: {
-	DelayedHomingMissile: {
-		DisplayName: 延迟追踪飞弹
-	}
-	HomingExplodingMinion: {
-		DisplayName: 追踪爆炸召唤物
-	}
-	CustomRaven: {
-		DisplayName: 自定义乌鸦
-	}
+  "Keybinds": {
+    "Open Skill UI.DisplayName": "打开技能界面",
+    "Open Stat UI.DisplayName": "打开属性界面",
+    "Skill 1 USE.DisplayName": "释放技能1"
+  },
+  "Items": {
+    "ExpDoubleCoupon": {}
+  },
+  "Projectiles": {
+    "DelayedHomingMissile": {
+      "DisplayName": "延迟追踪飞弹"
+    },
+    "HomingExplodingMinion": {
+      "DisplayName": "追踪爆炸召唤物"
+    },
+    "CustomRaven": {
+      "DisplayName": "自定义乌鸦"
+    }
+  }
 }
