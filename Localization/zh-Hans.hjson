@@ -213,15 +213,15 @@ Mods: {
 			NecromancerSkill3DetailDesc: '''\n牺牲生命力以召唤更多亡灵生物。\n更高等级可获得更多召唤位，但会减少更多生命值。\n\n当前等级: {0}\n额外召唤位: +{1}\n生命值减少: -{2}\n'''
 
 			TeleportCooldownName: 瞬移冷却
-			TeleportCooldownTip: {0} 秒内无法瞬移
+			TeleportCooldownTip: "{0} 秒内无法瞬移"
 			MinionBoostCooldownName: 召唤强化冷却
-			MinionBoostCooldownTip: {0} 秒内无法强化召唤物
+			MinionBoostCooldownTip: "{0} 秒内无法强化召唤物"
 			ExplosionCooldownName: 爆炸冷却
-			ExplosionCooldownTip: {0} 秒内无法引爆召唤物
+			ExplosionCooldownTip: "{0} 秒内无法引爆召唤物"
 			MagicMissileCooldownName: 魔法飞弹冷却
-			MagicMissileCooldownTip: {0} 秒内无法释放魔法飞弹
+			MagicMissileCooldownTip: "{0} 秒内无法释放魔法飞弹"
 			ImmortaltyCooldownName: 不死冷却
-			ImmortaltyCooldownTip: {0} 秒内无法激活不死
+			ImmortaltyCooldownTip: "{0} 秒内无法激活不死"
 			SkillCooldownName: 技能冷却
 			SkillCooldownTip: 技能冷却中
 			// Skill Upgrade Messages
