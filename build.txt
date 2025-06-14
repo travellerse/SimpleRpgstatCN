@@ -1,3 +1,6 @@
 displayName = SimpleRpgstatCN
 author = travellerse
 version = 0.1
+
+modReferences = SimpleRpgstat
+translationMod = true
