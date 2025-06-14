@@ -9,7 +9,7 @@
 ## 安装方法
 
 1. 确保已安装 tModLoader 和 SimpleRpgstat 原版模组。
-2. 订阅Steam Workshop上的本Mod。
+2. 订阅Steam Workshop上的[本Mod](https://steamcommunity.com/sharedfiles/filedetails/?id=3498833916)。
 3. 启动 tModLoader，进入“Mods”菜单。
 4. 在已安装的模组列表中找到“SimpleRpgstatCN”，并启用它。
 5. 重新加载游戏以应用更改。
@@ -18,6 +18,10 @@
 
 - 启用本Mod后，SimpleRpgstat相关内容将自动显示为简体中文。
 - 如遇到未翻译或翻译不准确的内容，欢迎反馈。
+
+## 源代码
+
+<https://github.com/travellerse/SimpleRpgstatCN>
 
 ## 贡献方式
 

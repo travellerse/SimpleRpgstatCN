@@ -19,6 +19,10 @@
 - 启用本Mod后，SimpleRpgstat相关内容将自动显示为简体中文。
 - 如遇到未翻译或翻译不准确的内容，欢迎反馈。
 
+## 源代码
+
+https://github.com/travellerse/SimpleRpgstatCN
+
 ## 贡献方式
 
 欢迎任何人参与翻译优化或修正。可通过Pull Request提交改动，或在Issues中反馈问题。
