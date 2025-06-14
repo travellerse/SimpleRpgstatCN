@@ -35,12 +35,12 @@
         "StatINT": "智力(INT)",
         "StatLUK": "幸运(LUK)",
 			// Damage Types 伤害类型
-        "MeleeDamage": "近战",
-        "RangedDamage": "远程",
-        "MagicDamage": "魔法",
-        "SummonDamage": "召唤",
-        "WhipDamage": "鞭子",
-        "OtherDamage": "其他",
+        "MeleeDamage": "近战伤害",
+        "RangedDamage": "远程伤害",
+        "MagicDamage": "魔法伤害",
+        "SummonDamage": "召唤伤害",
+        "WhipDamage": "鞭子伤害",
+        "OtherDamage": "其他伤害",
 			// Status Info
         "WeaponDamage": "{0}武器: {1}~{2}",
         "WeaponDamageNone": "武器伤害: 无",
